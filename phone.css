@@ -1,0 +1,113 @@
+
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  /* height: 130px; */
+}
+#navbar::before{
+    height: 177px;
+    width: 100%;
+}
+#navbar ul li a {
+    margin: 0px 0.8rem;
+    padding: 0px 0px;
+    height: 0px;
+}
+#navbar ul li{
+    width: auto;
+    height: 0px;
+}
+
+#navbar img{
+    size: 2px;
+    height: 40px;
+}
+/* Home section  */
+#home {
+    height: 300px;
+}
+#home button{
+    position: absolute;
+    top: 455px;
+    
+}
+
+#home::before{
+    height: 509px;
+}
+
+.h-primary {
+    font-size: 1.8rem;
+    padding: 17px 0px;
+    margin: 0px 0px;
+}
+.h-secondary{
+    font-size: 2.3rem;
+}
+#home h1{
+    font-size: 1.8rem;
+}
+#home p {
+    font-size: 1.2rem;
+    width: 336px;
+    height: 0px;
+}
+
+/* Services section  */
+#services-container{
+    position: relative;
+    top: 143px;
+}
+#services{
+    flex-direction: column;
+}
+#services img{
+    width: 9rem;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+#services .box{
+    flex-direction: column;
+    
+}
+
+/* client section */
+.client-section{
+    position: relative;
+    top: 135px;
+}
+
+.client-section::before{
+    position: absolute;
+    height: 300px;
+}
+
+#clients{
+
+}
+.client-item{
+    display: flex;
+    overflow: hidden;
+}
+
+#clients img {
+    width: 123px;
+    padding: 0px 20px;
+}
+
+/* Contact section  */
+
+#contact{
+    position: relative;
+    top: 137px;
+}
+#contact::before{
+    height: 487px;
+}
+
+footer{
+    position: relative;
+    top: 130px;
+}
